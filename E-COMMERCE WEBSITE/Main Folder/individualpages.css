@@ -1,0 +1,314 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic);
+$itemGrow: 1.2;
+$duration: 250ms;
+
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+#nav-bar
+{
+	position:sticky;
+	top: 0;
+	z-index: 10;
+	
+	
+}
+
+/* Add a black background color to the top navigation bar */
+.topnav 
+{
+  	overflow: hidden;
+	
+ 	
+}
+
+/* Style the links inside the navigation bar */
+.topnav a 
+{
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 26px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: #00CDCD;
+  
+}
+
+.navbarNav ul .li
+{
+	color: white;
+	background-color: black;
+}
+
+.topnav a 
+{
+  	background-color: white;
+	font-size: 20px;
+  
+}
+.navbar-brand img
+{
+	height:100px;
+	padding-left:0;
+	
+}
+
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+	font-size: 20px;
+	
+	background-color: #00CDCD;
+	
+  	
+	
+}
+
+
+#nav-bar ul li a:hover
+{
+	color:#007bff!important;
+}
+
+.navbar
+{
+	background-color: #00CDCD;
+	margin-bottom: 20px;
+	
+}
+
+.navbar-toggler
+{
+	border: none;
+	
+}
+
+.navbar-link
+{
+	color:#555!important;
+	font-weight:600;
+	font-size:16px;
+}
+
+
+#Slider
+{
+	
+	width: auto;
+	height: 240px;;
+}
+/*-----product-top css-------*/
+
+.product-top img
+{
+	width: 90%;
+	height: 600px;
+
+}
+.overlay-right
+{
+	display: block;
+	opacity: 0;
+	position: absolute;
+	top: 10%;
+	margin-left: 0;
+	width: 70px;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	
+}
+.overlay-right .fa
+{
+	cursor: pointer;
+	background-color: #fff;
+	color: #000;
+	height: 35px;
+	width: 35px;
+	font-size: 20px;
+	padding: 7px;
+	margin-bottom: 5%;
+	margin-top: 10px;;
+	 
+
+}
+.overlay-right .btn-secondary
+{
+	background: none !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+.product-top:hover .overlay-right
+{
+	opacity: 1;
+	margin-left: 5%;
+	transition: 0.5s;
+}
+
+.product-bottom h3
+{
+	font-size: 28px;
+	padding-bottom: 10px; 
+}
+
+#masthead {
+	margin-top: 3em;
+	padding: 2em 0 0.5em 0;
+	border-bottom: 1px solid #ddd;
+}
+
+#masthead h1 {
+	margin: 0;
+	font-size: 3.5em;
+	overflow: hidden;
+	padding-left: 85px;
+	min-height: 82px;
+	line-height: 2.3;
+	
+	
+	
+}
+
+.tagline {
+	float: right;
+	color: #00CDCD;
+	font-size: 14px;
+	padding-top: 3.5em;
+}
+
+#products ul {
+	margin: 1.5em 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+
+#products li {
+	float: left;
+	width: 31%;
+	margin: 0 1%;
+	display: block;
+}
+
+.product-image {
+	width: 100%;
+	padding: 20px 0;
+	transition: 1s;
+	cursor: pointer;
+	height: 300px;
+	overflow: hidden;
+	
+}
+
+.product-description {
+	
+	
+	color: black;
+	border-radius: 5px;
+}
+
+.product-name {
+	text-align: center;
+	color: black;
+	margin: 0;
+	font-size: 1.4em;
+	
+	
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+.product-price {
+	width: 2.7em;
+	height: 2em;
+	font-size: 1.7em;
+	text-align: left;
+	margin-left: 45px;
+	background: #fff;
+	color: black;
+	
+}
+
+form.add-to-cart div
+{
+	text-align: center;
+	color: black;
+
+	
+	
+}
+
+form.add-to-cart p 
+{
+	text-align: center;
+	
+	color: #00CDCD;
+}
+
+form.add-to-cart p .btn
+{
+	text-align: center;
+	
+	color: white;
+	background: red;
+	margin-bottom: 40px;
+}
+
+
+form input.qty {
+	width: 60px;
+	border: 2px solid #eee;
+	font: 1.5em 'PT Serif', serif;
+	background: #f9f9f9;
+	color: #000;
+	border-radius: 3px;
+	margin-left: 0.4em;
+	
+}
+
+.btn{
+	display: inline-block;
+	background: #800;
+	color: white;
+	
+	padding: 0.3em 1em;
+	text-align: center;
+	border-radius: 4px;
+	border: 1px solid white;
+}
+ a.btn {
+	display: inline-block;
+	background: #cc1400;
+	color: #fff;
+	font: 1em 'PT Serif', serif;
+	padding: 0.3em 1em;
+	text-align: center;
+	border-radius: 4px;
+	border: 1px solid #a00;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-size: 50%;
+}

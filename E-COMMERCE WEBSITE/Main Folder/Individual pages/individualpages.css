@@ -1,0 +1,121 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic);
+$itemGrow: 1.2;
+$duration: 250ms;
+
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+#nav-bar
+{
+	position:sticky;
+	top: 0;
+	z-index: 10;
+	
+	
+}
+
+/* Add a black background color to the top navigation bar */
+.topnav 
+{
+  	overflow: hidden;
+	
+ 	
+}
+
+/* Style the links inside the navigation bar */
+.topnav a 
+{
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 26px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: #00CDCD;
+  
+}
+
+.navbarNav ul .li
+{
+	color: white;
+	background-color: black;
+}
+
+.topnav a 
+{
+  	background-color: white;
+	font-size: 20px;
+  
+}
+.navbar-brand img
+{
+	height:100px;
+	padding-left:0;
+	
+}
+
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+	font-size: 20px;
+	
+	background-color: #00CDCD;
+	
+  	
+	
+}
+
+
+#nav-bar ul li a:hover
+{
+	color:#007bff!important;
+}
+
+.navbar
+{
+	background-color: #00CDCD;
+	margin-bottom: 20px;
+	
+}
+
+.navbar-toggler
+{
+	border: none;
+	
+}
+
+.navbar-link
+{
+	color:#555!important;
+	font-weight:600;
+	font-size:16px;
+}
+
+
+#Slider
+{
+	
+	width: auto;
+	height: 240px;;
+}
